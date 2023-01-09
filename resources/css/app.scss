@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #fffcff;
+    font-family: "Yu Mincho", YuMincho, Meiryo, serif;
+    letter-spacing: 2px;
+}
+
+.markdown {
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+        padding: 0 .5rem;
+        line-height: 2.5;
+        border-top: 2px solid #878787;
+        border-bottom: 1px solid #cecece;
+        font-weight: bold;
+    }
+    h1 {
+        margin-top: 1rem;
+        font-size: 40px;
+        line-height: 1.5;
+        border: none;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+    li {
+        margin-bottom: .5rem;
+
+        & :first-child {
+            margin-top: .5rem;
+        }
+        & > ul, & > ol {
+            margin-left: 1rem;
+        }
+    }
+    ol {
+        list-style: revert;
+    }
+    code {
+        color: #f6729a;
+        background-color: #efefef;
+    }
+    a[href] {
+        color: blue;
+        text-decoration: underline;
+    }
+    table {
+        width: 100%;
+        border-collapse: separate !important;
+        border-spacing: 2px;
+    }
+    th, td {
+        border: 0.5px solid;
+    }
+    th {
+        background-color: #f0fff0;
+    }
+    blockquote {
+        padding: 0.5rem;
+        border-left: 4px solid #afafaf;
+        background-color: #efefef;
+
+        & > p {
+            white-space: pre-line;
+        }
+    }
+}
