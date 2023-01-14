@@ -68,6 +68,8 @@ class SettingController extends Controller
 
     public function saveBlog($id): RedirectResponse
     {
+        $id = $id === 'new' ? -1 : $id;
+
         $requesst = request()->all();
         $blog = Blog::findOrNew($id);
         $blog->fill($requesst)->save();
