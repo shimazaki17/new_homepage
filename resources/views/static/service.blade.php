@@ -13,9 +13,17 @@
                 ・規程作成<br />
                 ・法令調査<br />
                 ・意見書作成<br />
-                ・法律顧問
             </div>
         </div>
+       
+        <div class="max-w-xs border-8 border-white">
+            <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">法律顧問</p>
+            <div class="px-4 py-6 text-xs">
+                日々の法的な疑問やトラブル、改正法対応などに対応します。<br />
+                これまで複数の外資・内資の企業において経営者や法務部に寄り添い、法務サポートを提供しています。
+            </div>
+        </div>     
+                
         <div class="max-w-xs border-8 border-white">
             <p class="p-6 mb-6 border-b border-black border-dashed text-lg text-center font-bold">個人関連の業務</p>
             <div class="px-4 py-6 text-xs">
