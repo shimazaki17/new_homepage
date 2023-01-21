@@ -17,10 +17,11 @@
         </div>
        
         <div class="max-w-xs border-8 border-white">
-            <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">法律顧問</p>
+            <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">法律顧問、アウトソース</p>
             <div class="px-4 py-6 text-xs">
                 日々の法的な疑問やトラブル、改正法対応などに対応します。<br />
-                これまで複数の外資・内資の企業において経営者や法務部に寄り添い、法務サポートを提供しています。
+                これまで複数の外資・内資の企業において経営者や法務部に寄り添った法務サポートを提供してきました。<br />
+                一時的に法務人員が足りない場合など、法務機能のアウトソース先としてご支援させてください。
             </div>
         </div>     
                 
