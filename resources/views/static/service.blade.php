@@ -19,9 +19,9 @@
         <div class="max-w-xs border-8 border-white">
             <p class="p-6 mb-6 border-b border-black border-dashed text-lg text-center font-bold">個人関連の業務</p>
             <div class="px-4 py-6 text-xs">
-                ・家族関係
-                ・刑事事件
-                ・債権回収
+                ・家族関係<br />
+                ・刑事事件<br />
+                ・債権回収<br />
                 ・SNS被害
             </div>
         </div>
