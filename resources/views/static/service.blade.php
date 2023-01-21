@@ -21,7 +21,7 @@
             <div class="px-4 py-6 text-xs">
                 日々の法的な疑問やトラブル、改正法対応などに対応します。<br />
                 これまで複数の外資・内資の企業において経営者や法務部に寄り添った法務サポートを提供してきました。<br />
-                
+                <br />
                 ・顧問先は優先対応とし、24時間以内に対応いたします。<br />
                 ・一定時間内のご相談を、顧問料の枠内で対応いたします。<br />
                 ・顧問料の範囲を超える場合、タイムチャージについてディスカウントを設定します。
@@ -38,10 +38,9 @@
         <div class="max-w-xs border-8 border-white">
             <p class="p-6 mb-6 border-b border-black border-dashed text-lg text-center font-bold">個人関連の業務</p>
             <div class="px-4 py-6 text-xs">
-                ・家族関係<br />
-                ・刑事事件<br />
+                ・相続、男女問題<br />
                 ・債権回収<br />
-                ・SNS被害
+                ・刑事事件
             </div>
         </div>
 
