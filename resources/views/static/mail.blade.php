@@ -17,11 +17,6 @@
 * メールアドレス：
   * a.shimazaki@s-law.biz
 
-<br />
-
-* 電話
-  * 090-9882-8765
-  * ※営業目的のお電話はご遠慮ください。
         </div>
     </div>
 @endsection
