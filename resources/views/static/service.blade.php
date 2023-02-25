@@ -9,7 +9,8 @@
         <div class="max-w-xs border-8 border-white">
             <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">企業関連の業務</p>
             <div class="px-4 py-6 text-xs">
-                ・会社紛争のアドバイス、訴訟代理<br />
+                ・会社紛争のアドバイス<br />
+                ・訴訟代理<br />
                 ・規程作成<br />
                 ・法令調査<br />
                 ・意見書作成<br />
@@ -27,6 +28,14 @@
                 ・顧問料の範囲を超える場合、タイムチャージについてディスカウントを設定します。
             </div>
         </div> 
+        
+        <div class="max-w-xs border-8 border-white">
+            <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">内部通報の外部窓口</p>
+            <div class="px-4 py-6 text-xs">
+                弊所では内部通報の外部窓口を受託しています。<br />
+                通報の受付から報告まで全て、弁護士が対応します。<br />
+            </div>
+        </div>
         
         <div class="max-w-sm border-8 border-white">
             <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">法務アウトソース</p>
