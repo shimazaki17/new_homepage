@@ -12,7 +12,7 @@
             </script>
             <meta name="google-site-verification" content="Gy3omZhQvd8wVM8fXXwG_1SitqokfvJuq1kOyvktiGg" />
         @endif
-        <meta name="description" content="恵比寿で弁護士をお探しならご相談ください。個人・法人を問わず、お気軽にお問合せください。" />
+        <meta name="description" content="企業法務や訴訟を得意とする弁護士です。恵比寿で弁護士をお探しの個人の方もお気軽にご相談ください。" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
