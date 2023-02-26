@@ -21,7 +21,7 @@
             <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">法律顧問</p>
             <div class="px-4 py-6 text-xs">
                 日々の法的な疑問やトラブル、改正法対応などに対応します。<br />
-                これまで複数の外資・内資の企業において法務サポートを提供してきました。<br />
+                複数の日系・外資系企業へ法務サポートを提供してきました。<br />
                 <br />
                 ・顧問先は優先対応とし、24時間以内に対応します。<br />
                 ・一定時間内のご相談を、顧問料の範囲で対応します。<br />
@@ -33,8 +33,8 @@
             <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">内部通報の外部窓口</p>
             <div class="px-4 py-6 text-xs">
                 弊所では内部通報の外部窓口を受託しています。<br />
-                通報の受付から報告まで全て、弁護士が対応します（費用：月3万円〜）。<br />
-                各社の内部通報規程に合わせて、柔軟に対応します。
+                通報の受付から月次報告まで全て、弁護士が対応します（費用：月3万円〜）。<br />
+                貴社の内部通報規程に合わせて、柔軟に対応します。
             </div>
         </div>
         
