@@ -43,7 +43,7 @@
         <div class="max-w-sm border-8 border-white">
             <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">法務アウトソース</p>
             <div class="px-4 py-6 text-xs">
-                一時的に法務人員が足りない場合など、法務機能のアウトソース先としてご支援させてください。
+                一時的に法務人員が足りない場合など、法務機能のアウトソース先としてご利用ください。
             </div>
         </div>     
                 
