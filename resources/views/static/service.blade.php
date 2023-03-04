@@ -40,19 +40,14 @@
             </div>
         </div>
         
-        <div class="max-w-sm border-8 border-white">
-            <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">法務アウトソース</p>
-            <div class="px-4 py-6 text-xs">
-                一時的に法務人員が足りない場合など、法務機能のアウトソース先としてご利用ください。
-            </div>
-        </div>     
+   
                 
         <div class="max-w-xs border-8 border-white">
-            <p class="p-6 mb-6 border-b border-black border-dashed text-lg text-center font-bold">個人関連の業務</p>
+            <p class="p-6 mb-6 border-b border-black border-dashed text-lg text-center font-bold">個人関連／公益活動</p>
             <div class="px-4 py-6 text-xs">
                 ・相続、男女問題<br />
                 ・債権回収<br />
-                ・刑事事件
+                ・国選弁護／少年付添人
             </div>
         </div>
 
