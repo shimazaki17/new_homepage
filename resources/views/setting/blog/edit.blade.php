@@ -8,7 +8,7 @@
     <form method="POST">
         @csrf
         <x-forms.text name="title" value="{{ $blog->title }}" :required="true">タイトル</x-forms.text>
-        <x-forms.select name="tags" :select="$tags" :values="$blog->tags" key="id" value="tag" />
+        <x-forms.select name="tags" :select="$tags" :values="$blog->tags" key="id" value="tag" :multiple="true">タグ</x-forms.select>
         <x-forms.text name="image" value="{{ $blog->image }}">画像URL</x-forms.text>
         @if ($blog->id)
             <x-button>変更</x-button>

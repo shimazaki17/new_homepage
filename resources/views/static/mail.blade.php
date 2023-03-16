@@ -5,18 +5,35 @@
 @section('gtag', 'G-3LLZ42MC42')
 
 @section('content')
-    <div class="px-2 md:px-24">
+    <div class="mb-12 px-2 md:px-24">
         <div class="markdown">
 * お問合せ方法（ご相談の流れ）：
-  * １　下記メールアドレス宛に、ご相談内容、契約書等をご送付ください
+  * １　問い合わせフォームから、ご相談内容等をご連絡ください
   * ２　弊事務所から、取扱いの可否、報酬額を返信いたします（２までは無料です）
   * ３　お客様と日程を調整し、面談を実施いたします（Zoom会議も可能です）
-
-<br />
-
-* メールアドレス：
-  * a.shimazaki@s-law.biz
-
         </div>
+    </div>
+    <div class="p-6 bg-zinc-100">
+        @include('static.common.contact', [
+            'title' => 'お問い合わせ',
+            'data' => [
+                '氏名' => ['required' => true],
+                '会社名' => [],
+                '従業員数' => [
+                    'type' => 'select',
+                    'values' => [
+                        ['text' => '1 ～ 30名'],
+                        ['text' => '31 ～ 100名'],
+                        ['text' => '101 ～ 300名'],
+                        ['text' => '301 ～ 500名'],
+                        ['text' => '501 ～ 1000名'],
+                        ['text' => '1001名以上'],
+                    ]
+                ],
+                'メールアドレス' => ['required' => true],
+                '電話番号' => [],
+                'お問い合わせ内容' => ['multiline' => true, 'required' => true],
+            ]
+        ])
     </div>
 @endsection

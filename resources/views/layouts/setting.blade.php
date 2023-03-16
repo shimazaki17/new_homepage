@@ -7,7 +7,7 @@
         島﨑法律事務所
     </div>
     <div class="h-screen flex text-sm">
-        <ul class="shrink-0 bg-indigo-100 shadow-md">
+        <ul class="shrink-0 bg-indigo-100 shadow-md p-4">
             <li>
                 <x-link link="/setting/tags">タグ設定</x-link>
             </li>

@@ -2,12 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\Contact;
 use App\Models\Blog;
 use App\Models\Tag;
+use Exception;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\View\View;
 
 class Controller extends BaseController
@@ -62,5 +67,20 @@ class Controller extends BaseController
     private function paginateBlog(?callable $condition = null)
     {
         return Blog::when($condition, $condition)->published()->orderByDesc('id')->paginate(6);
+    }
+
+    public function contact(): RedirectResponse
+    {
+        $request = request()->except(['_token', 'title']);
+        $title = request()->input('title');
+        try {
+            Mail::to($request['メールアドレス'])->send(new Contact($title, $request));
+            session()->flash('message', ['value' => 'お問い合わせを受け付けました']);
+        } catch (Exception $e) {
+            Log::error($e);
+            session()->flash('message', ['value' => '受け付けに失敗しました', 'error' => true]);
+        }
+
+        return back();
     }
 }

@@ -20,11 +20,31 @@
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,1,200" />
         <script src='https://cdn.jsdelivr.net/gh/rsms/markdown-wasm@v1.2.0/dist/markdown.js'></script>
         <script src="/static/jquery-2.1.3.min.js"></script>
         @vite(['resources/css/app.scss', 'resources/js/app.ts'])
     </head>
     <body>
         @yield('body')
+        @if ((session('message')))
+            <div class="fixed top-4 w-full flex items-center text-white z-10 pointer-events-none">
+                <div class="
+                    m-auto p-4 rounded  message-value
+                    {{ session('message.error') ? 'bg-rose-500' : 'bg-teal-500' }}
+                ">
+                    {{ session('message.value') }}
+                </div>
+            </div>
+            <script>
+            $(function() {
+                $(document).ready(function() {
+                    setTimeout(function() {
+                        $(".message-value").fadeOut();
+                    }, 3000);
+                })
+            });
+            </script>
+        @endif
     </body>
 </html>

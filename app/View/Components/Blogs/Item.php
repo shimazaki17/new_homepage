@@ -8,14 +8,10 @@ use Illuminate\View\View;
 
 class Item extends Component
 {
-    public Blog $blog;
-
-    public string $base;
-
-    public function __construct(Blog $blog, string $base = '')
-    {
-        $this->blog = $blog;
-        $this->base = $base;
+    public function __construct(
+        public Blog $blog,
+        public string $base = '',
+    ) {
     }
 
     public function render(): View

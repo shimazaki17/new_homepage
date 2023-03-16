@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use App\Models\Tag;
+use Exception;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Routing\Controller;
 use Illuminate\View\View;
@@ -20,15 +21,25 @@ class SettingController extends Controller
 
     public function saveTags(string $tag = ''): RedirectResponse
     {
-        $new = request()->input('tag');
-        Tag::where('tag', $tag)->firstOrNew()->fill(['tag' => $new])->save();
+        try {
+            $new = request()->input('tag');
+            Tag::where('tag', $tag)->firstOrNew()->fill(['tag' => $new])->save();
+            session()->flash('message', ['value' => 'タグを登録しました']);
+        } catch (Exception $e) {
+            session()->flash('message', ['value' => '登録に失敗しました', 'error' => true]);
+        }
 
         return redirect('/setting/tags/');
     }
 
     public function deleteTags(string $tag): RedirectResponse
     {
-        Tag::where('tag', $tag)->firstOrFail()->delete();
+        try {
+            Tag::where('tag', $tag)->firstOrFail()->delete();
+            session()->flash('message', ['value' => 'タグを削除しました']);
+        } catch (Exception $e) {
+            session()->flash('message', ['value' => '削除に失敗しました', 'error' => true]);
+        }
 
         return redirect('/setting/tags');
     }
@@ -59,9 +70,14 @@ class SettingController extends Controller
 
     public function publishBlog($id): RedirectResponse
     {
-        $blog = Blog::findOrFail($id);
-        $blog->published_at = $blog->published_at ? null : now();
-        $blog->save();
+        try {
+            $blog = Blog::findOrFail($id);
+            $blog->published_at = $blog->published_at ? null : now();
+            $blog->save();
+            session()->flash('message', ['value' => 'ブログを更新しました']);
+        } catch (Exception $e) {
+            session()->flash('message', ['value' => '更新に失敗しました', 'error' => true]);
+        }
 
         return redirect("/setting/blog/{$blog->id}");
     }
@@ -70,17 +86,27 @@ class SettingController extends Controller
     {
         $id = $id === 'new' ? -1 : $id;
 
-        $requesst = request()->all();
-        $blog = Blog::findOrNew($id);
-        $blog->fill($requesst)->save();
-        $blog->tags()->sync($requesst['tags'] ?? []);
+        try {
+            $requesst = request()->all();
+            $blog = Blog::findOrNew($id);
+            $blog->fill($requesst)->save();
+            $blog->tags()->sync($requesst['tags'] ?? []);
+            session()->flash('message', ['value' => 'ブログを登録しました']);
+        } catch (Exception $e) {
+            session()->flash('message', ['value' => '登録に失敗しました', 'error' => true]);
+        }
 
         return redirect("/setting/blog/{$blog->id}");
     }
 
     public function deleteBlog($id): RedirectResponse
     {
-        Blog::findOrFail($id)->delete();
+        try {
+            Blog::findOrFail($id)->delete();
+            session()->flash('message', ['value' => 'ブログを削除しました']);
+        } catch (Exception $e) {
+            session()->flash('message', ['value' => '削除に失敗しました', 'error' => true]);
+        }
 
         return redirect('/setting');
     }

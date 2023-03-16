@@ -8,14 +8,10 @@ use Illuminate\View\View;
 
 class Tags extends Component
 {
-    public Collection $tags;
-
-    public string $base;
-
-    public function __construct(Collection $tags, string $base = '')
-    {
-        $this->tags = $tags;
-        $this->base = $base;
+    public function __construct(
+        public Collection $tags,
+        public string $base = '',
+    ) {
     }
 
     public function render(): View
