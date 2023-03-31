@@ -8,7 +8,7 @@
         <div class="absolute right-0 top-0 md:top-auto">
         <div class="p-4 flex flex-col md:flex-row items-center gap-6 text-lg md:text-sm font-bold bg-[#f0fff0]">
             <img id="menu" src="/static/img/menu.png" class="md:hidden w-12 h-12 self-end" />
-            <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/about" class="top">弁護士紹介</a>
+            <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/" class="top">弁護士紹介</a>
             <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/service" class="top">取扱領域</a>
             <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/fee" class="top">料金体系</a>
             <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/map" class="top">アクセス</a>
