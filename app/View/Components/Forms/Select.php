@@ -8,11 +8,17 @@ use Illuminate\View\View;
 
 class Select extends Component
 {
-    public string $name;
     public Collection $items;
 
-    public function __construct(string $name, Collection $select, Collection $values, string $key, string $value)
-    {
+    public function __construct(
+        public string $name,
+        Collection $select,
+        Collection $values,
+        string $key,
+        string $value,
+        public bool $required = false,
+        public bool $multiple = false,
+    ) {
         $values = $values->keyBy($key);
 
         $this->name = $name;

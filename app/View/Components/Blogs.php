@@ -8,17 +8,11 @@ use Illuminate\View\View;
 
 class Blogs extends Component
 {
-    public LengthAwarePaginator $blogs;
-
-    public string $title;
-
-    public string $base;
-
-    public function __construct(LengthAwarePaginator $blogs, string $title = '', string $base = '')
-    {
-        $this->blogs = $blogs;
-        $this->title = $title;
-        $this->base = $base;
+    public function __construct(
+        public LengthAwarePaginator $blogs,
+        public string $title = '',
+        public string $base = '',
+    ) {
     }
 
     public function render(): View

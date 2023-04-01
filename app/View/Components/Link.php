@@ -7,11 +7,10 @@ use Illuminate\View\View;
 
 class Link extends Component
 {
-    public string $link;
-
-    public function __construct(string $link)
-    {
-        $this->link = $link;
+    public function __construct(
+        public string $link,
+        public bool $blank = false,
+    ) {
     }
 
     public function render(): View

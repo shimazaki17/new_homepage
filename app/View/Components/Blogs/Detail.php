@@ -8,11 +8,9 @@ use Illuminate\View\View;
 
 class Detail extends Component
 {
-    public Blog $blog;
-
-    public function __construct(Blog $blog)
-    {
-        $this->blog = $blog;
+    public function __construct(
+        public Blog $blog,
+    ) {
     }
 
     public function render(): View

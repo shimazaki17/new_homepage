@@ -7,14 +7,10 @@ use Illuminate\View\View;
 
 class Button extends Component
 {
-    public string $color;
-
-    public string $method;
-
-    public function __construct(string $color = 'default', string $method = '')
-    {
-        $this->color = $color;
-        $this->method = $method;
+    public function __construct(
+        public string $color = 'default',
+        public string $method = ''
+    ) {
     }
 
     public function render(): View

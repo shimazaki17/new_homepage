@@ -25,11 +25,17 @@ Route::get('/map', fn () => view('static.map'));
 
 Route::get('/mail', fn () => view('static.mail'));
 
+Route::get('/privacy', fn () => view('static.privacy'));
+
+Route::get('/whistleblowing-contact', fn () => view('static.whistleblowing-contact'));
+
 Route::get('/blogs', [Controller::class, 'blogs']);
 
 Route::get('/tags/{tag}', [Controller::class, 'tags']);
 
 Route::get('/blog/{id}', [Controller::class, 'blog']);
+
+Route::post('/contact', [Controller::class, 'contact']);
 
 Route::group([
     'prefix' => '/setting',
