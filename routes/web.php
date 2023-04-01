@@ -17,8 +17,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', fn () => view('static.about'));
 
-// Route::get('/about', fn () => view('static.about'));
-
 Route::get('/service', fn () => view('static.service'));
 
 Route::get('/fee', fn () => view('static.fee'));
