@@ -33,7 +33,7 @@
             <p class="p-6 border-b border-black border-dashed text-lg text-center font-bold">内部通報の外部窓口</p>
             <div class="px-4 py-6 text-xs">
                 弊所では内部通報の外部窓口を受託しています。<br />
-                弁護士が、通報の受付から月次報告まで全て対応します（月額3万円〜）。<br />
+                弁護士が、通報の受付から月次報告まで全て対応します（月額2万円〜）。<br />
                 貴社の内部通報規程に合わせて、柔軟に対応します。<br />
                 <br />
                 内部通報規程の作成、社内研修の実施も可能です。

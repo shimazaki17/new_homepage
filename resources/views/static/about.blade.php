@@ -18,13 +18,13 @@
             <li>2014-2016 株式会社リクルート（法務部）</li>
             <li>2016-2017 都内法律事務所（アソシエイト弁護士）</li>
             <li>2018 ダイソン株式会社（非常勤）、リーガルテック開発</li>
-            <li>2019 当事務所開設、米国クラウドベンダー（非常勤）</li>
+            <li>2019 当事務所開設、外資系ソフトウェア・クラウドベンダー（非常勤）</li>
             <li class="mt-4 mb-2 underline underline-offset-4 decoration-[0.5px]">所属弁護士会／保有資格</li>
             <li>東京弁護士会</li>
             <li>個人情報保護士</li>
             <li>TOEIC 930</li>
             <li class="mt-4 mb-2 underline underline-offset-4 decoration-[0.5px]">特徴／注力分野</li>
-            <li>IT関連、不動産関連（建築瑕疵など）</li>
+            <li>IT関連紛争、内部通報外部窓口サービス</li>
         </ol>
     </div>
 @endsection
