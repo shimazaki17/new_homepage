@@ -36,7 +36,7 @@
                 弁護士が、通報の受付から月次報告まで全て対応します（月額2万円〜）。<br />
                 貴社の内部通報規程に合わせて、柔軟に対応します。<br />
                 <a href= "https://www.s-law.tokyo/whistleblowing-contact"><span style="text-decoration: underline">詳細</span></a>
-
+                <br />
                 <br />
                 内部通報規程の作成、社内研修の実施も可能です。
             </div>
