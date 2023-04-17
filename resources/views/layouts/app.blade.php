@@ -12,7 +12,7 @@
             <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/service" class="top">取扱領域</a>
             <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/fee" class="top">料金体系</a>
             <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/map" class="top">アクセス</a>
-            <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/blogs" class="top">ブログ</a>
+            <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/blogs" class="top">コラム</a>
             <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/mail" class="top">お問合せ</a>
             <a class="hidden md:block h-6 hover:border-b border-zinc-900" href="/whistleblowing-contact" class="top">内部通報外部窓口</a>
         </div>
