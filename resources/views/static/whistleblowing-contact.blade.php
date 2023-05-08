@@ -42,7 +42,7 @@
 
             <div class="faq p-6 m-auto max-w-4xl flex flex-col space-y-3">
                 @foreach ([
-                 [
+                    [
                         'q' => '弁護士を外部窓口にするメリットは？',
                         'a' => implode('<br />', [
                             '法令や社内規則の知識があり、聞き取りにも慣れているため、社内調査へスムーズに移行できます。',
