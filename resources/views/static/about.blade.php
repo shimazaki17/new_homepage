@@ -21,9 +21,9 @@
             <li>2019 当事務所開設、米系クラウドベンダー非常勤</li>
             <li class="mt-4 mb-2 underline underline-offset-4 decoration-[0.5px]">所属弁護士会／保有資格</li>
             <li>東京弁護士会、インターネット法律研究部</li>
-            <li>ジーズアカデミー（週末コース）修了</li>
             <li>個人情報保護士</li>
-            <li>TOEIC 930</li>
+            <li>TOEFL IBT 98</li>
+            <li>ジーズアカデミー（週末コース）修了</li>
             <li class="mt-4 mb-2 underline underline-offset-4 decoration-[0.5px]">特徴／注力分野</li>
             <li>IT関連紛争、内部通報外部窓口</li>
         </ol>
